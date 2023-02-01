@@ -7,9 +7,7 @@ using System.Web.Http;
 
 namespace WebApiProject.Controllers
 {
-    public class TestingGitpushController : ApiController
+    public class Test2Controller : ApiController
     {
-        //I am pushing this code to gitHub
-        //I am adding a second line
     }
 }

@@ -162,6 +162,7 @@
     <Compile Include="Controllers\HostingCostController.cs" />
     <Compile Include="Controllers\NumberMachineController.cs" />
     <Compile Include="Controllers\SquareController.cs" />
+    <Compile Include="Controllers\Test2Controller.cs" />
     <Compile Include="Controllers\TestingGitpushController.cs" />
     <Compile Include="Controllers\ValuesController.cs" />
     <Compile Include="Global.asax.cs">
