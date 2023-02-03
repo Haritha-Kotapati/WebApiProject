@@ -23,8 +23,11 @@ namespace WebApiProject.Controllers
         /// This method returns the string value when receiving a Get request
         /// </summary>
         /// <example>GET api/greeting/{id} </example>
-        /// <returns>[ "Hello World!" ]</returns>
-        // 
+        /// <returns>[ "Greetings to " + id(no of people) + " people!"  ]</returns>
+        
+        ///GET localhost/Greeting/3 --> Greetings to 3 people!
+        ///GET localhost/Greeting/6 --> Greetings to 6 people!
+        ///GET localhost/Greeting/0 --> Greetings to 0 people!
         public IEnumerable<string> Get(int id)
         {
             return new string[] { "Greetings to " + id + " people!" };

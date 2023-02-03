@@ -16,6 +16,9 @@ namespace WebApiProject.Controllers
         /// <returns> [id + 10] </returns>
 
         // GET api/addTen/{id}
+        //GET localhost/AddTen/21 --> 31
+        //GET localhost/AddTen/0 --> 10
+        //GET localhost/AddTen/-9 --> 1
         public IEnumerable<int> Get(int id)
         {
             return new int[] { id + 10 };
